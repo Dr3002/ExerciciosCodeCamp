@@ -1,0 +1,42 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+      <h1 id="title">Formulário de Pesquisa freeCodeCamp</h1>
+      <p id="description">
+Obrigado por dedicar seu tempo para nos ajudar a melhorar a plataforma</p>
+  <form id="survey-form">
+<fieldset>
+        <label id="name-label"> Name:<input id="name" placeholder="insira seu nome" required></label>
+        <label id="email-label"> Email:<input id="email" type="email" placeholder="insira seu email" required></label>
+        <label id="number-label"> Age:<input id="number" type="number" min="13" max="120" placeholder=" insira sua idade"></label>
+  <select id="dropdown">
+    <option value="0">(selecione um)</option>
+    <option value="1">Estudante</option>
+    <option value="2">Trabalhador</option>
+  </select>
+  <label for="conta-pessoal"><input id="conta-pessoal" type="radio" name="account-type" class="inline" value="3" /> Conta-pessoal</label>
+        <label for="conta-negocios"><input id="conta-negocios" type="radio" name="account-type" class="inline" value="4" /> Conta de negócios</label>
+  <label><input value="5" type="checkbox" ><label>
+  <label><input value="6" type="checkbox"><label>
+    <label>Sugestões:<textarea></textarea></label>
+  </form>
+  <input type="submit" id="submit" />
+</fieldset>
+
+    </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
